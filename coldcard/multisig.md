@@ -207,7 +207,7 @@ from a PSBT file.
 
 ## Creating a Multisig Wallet using Electrum
 
-_We are awaiting [PR 5540](https://github.com/spesmilo/electrum/pull/5440) to be merged
+_We are awaiting [PR 5440](https://github.com/spesmilo/electrum/pull/5440) to be merged
 before Electrum can interoperate with Coldcard._
 
 To create a multisig wallet on Electrum, involving one or more Coldcards, proceed
@@ -316,7 +316,7 @@ and import the multisig wallet into each. You are now ready to sign transactions
 
 !!! warning "Electrum Support"
 
-    [PR 5540](https://github.com/spesmilo/electrum/pull/5440)
+    [PR 5440](https://github.com/spesmilo/electrum/pull/5440)
     has been merged into Electrum to make these multisig features accessible to all.
     You can build Electrum from sources, or wait until the next public version is released.
     We expect these features to be including version 4.0.0 and later.
